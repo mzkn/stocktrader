@@ -9,8 +9,8 @@ var price = '4280';
 // insertdb(code, STOCK_NAME, fmtdate, price);
 var dbConf= {
 host : 'localhost',
-       user : 'mizkun',
-       password : 'skyblue5090',
+       user : '######',
+       password : '#######',
        database : 'STOCK_TRADER'
 }
 
