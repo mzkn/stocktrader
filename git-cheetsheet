@@ -1,0 +1,21 @@
+# gitのチートシートだよ！！！
+
+1.初期化
+- git init
+  -> そこに.gitファイル（そのディレクトリに関するgit設定かな？）が置かれる
+
+2. .gitとレポジトリの紐付け
+- git remote add origin git@github.com:zuyamaro/stocktrader.git
+
+3. push!!
+- git push -u origin master
+
+4. 色々ファイル作ってaddしてcommitしてpush
+- echo poi > zoi
+- git add zoi
+  -> レポジトリにzoiが追加される
+- git commit -m "poi to zoi"
+  -> コミット
+- git push -u origin master
+  -> push。これで一通り完了のはず
+
